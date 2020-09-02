@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" onKeyPressed="#initialize" onKeyTyped="#initialize" prefHeight="744.0" prefWidth="1377.0" style="" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Mover">
+    <children>
+      <ImageView fx:id="back" fitHeight="771.0" fitWidth="1377.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="point" fitHeight="19.0" fitWidth="198.0" focusTraversable="true" layoutX="680.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/point.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

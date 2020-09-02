@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+   <children>
+      <Text layoutX="170.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gaming Platform">
+         <font>
+            <Font name="Jokerman" size="32.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="0.3666666666666667" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#00ba03" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fill="#5e3131" layoutX="519.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="by Loktev F.">
+         <font>
+            <Font name="Calibri Italic" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="game1" fitHeight="216.0" fitWidth="169.0" layoutX="14.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="game2" fitHeight="216.0" fitWidth="169.0" layoutX="216.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="game3" fitHeight="216.0" fitWidth="169.0" layoutX="415.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <RadioButton fx:id="easyRadio" layoutX="82.0" layoutY="328.0" mnemonicParsing="false" selected="true" text="Упрощенная графика" textFill="#3c2f2f">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="realRadio" layoutX="328.0" layoutY="328.0" mnemonicParsing="false" text="Реалистичная графика" textFill="#3c2f2f">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>
